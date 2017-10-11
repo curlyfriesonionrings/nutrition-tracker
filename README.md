@@ -22,3 +22,5 @@ The following "specifications" were used as a guideline for creating this app:
 >		-6 meals entered
 >		-Food servings: 6 Veg, 3 Protein, 2 fat, 2 carb, 8 drink
 >		-Negative feedback should be given for going over the limit for protein, fat, and carb
+
+There is no persistent storage of any kind, but due to the data modeling as a result of using Redux-ORM, adding a database to store data is trivial.
